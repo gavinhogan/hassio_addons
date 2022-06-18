@@ -76,6 +76,7 @@ mappings = {
             "device_class": "temperature",
             "name": "Temperature",
             "unit_of_measurement": "°C",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -86,6 +87,7 @@ mappings = {
             "device_class": "temperature",
             "name": "Temperature 1",
             "unit_of_measurement": "°C",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -96,6 +98,7 @@ mappings = {
             "device_class": "temperature",
             "name": "Temperature 2",
             "unit_of_measurement": "°C",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -107,6 +110,7 @@ mappings = {
             "name": "Temperature",
             "unit_of_measurement": "°F",
             "assumed_state" : "True",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -118,6 +122,7 @@ mappings = {
             "name": "Temperature 1",
             "unit_of_measurement": "°F",
             "assumed_state" : "True",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -129,6 +134,7 @@ mappings = {
             "name": "Temperature 2",
             "unit_of_measurement": "°F",
             "assumed_state" : "True",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -151,6 +157,7 @@ mappings = {
             "device_class": "humidity",
             "name": "Humidity",
             "unit_of_measurement": "%",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -162,6 +169,7 @@ mappings = {
             "device_class": "humidity",
             "name": "Moisture",
             "unit_of_measurement": "%",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -173,6 +181,7 @@ mappings = {
             "device_class": "pressure",
             "name": "Pressure",
             "unit_of_measurement": "hPa",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -184,6 +193,7 @@ mappings = {
             "device_class": "pressure",
             "name": "Pressure",
             "unit_of_measurement": "kPa",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -195,6 +205,7 @@ mappings = {
             "device_class": "pressure",
             "name": "Pressure",
             "unit_of_measurement": "inHg",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -205,6 +216,7 @@ mappings = {
         "config": {
             "name": "Wind Speed",
             "unit_of_measurement": "km/h",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -215,6 +227,7 @@ mappings = {
         "config": {
             "name": "Wind Speed",
             "unit_of_measurement": "km/h",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -225,6 +238,7 @@ mappings = {
         "config": {
             "name": "Wind Speed",
             "unit_of_measurement": "mi/h",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -235,6 +249,7 @@ mappings = {
         "config": {
             "name": "Wind Average",
             "unit_of_measurement": "km/h",
+            "state_class": "measurement",
             "value_template": "{{ float(value|float) * 3.6 | round(2) }}"
         }
     },
@@ -245,6 +260,7 @@ mappings = {
         "config": {
             "name": "Wind Speed",
             "unit_of_measurement": "km/h",
+            "state_class": "measurement",
             "value_template": "{{ float(value|float) * 3.6 }}"
         }
     },
@@ -255,6 +271,7 @@ mappings = {
         "config": {
             "name": "Gust Speed",
             "unit_of_measurement": "km/h",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -265,6 +282,7 @@ mappings = {
         "config": {
             "name": "Wind max",
             "unit_of_measurement": "km/h",
+            "state_class": "measurement",
             "value_template": "{{ value|float }}"
         }
     },
@@ -275,6 +293,7 @@ mappings = {
         "config": {
             "name": "Wind max",
             "unit_of_measurement": "m/s",
+            "state_class": "measurement",
             "value_template": "{{ float(value|float) * 3.6 | round(2) }}"
         }
     },
@@ -285,6 +304,7 @@ mappings = {
         "config": {
             "name": "Gust Speed",
             "unit_of_measurement": "km/h",
+            "state_class": "measurement",
             "value_template": "{{ float(value|float) * 3.6 }}"
         }
     },
@@ -420,6 +440,7 @@ mappings = {
             "device_class": "illuminance",
             "name": "Outside Luminancee",
             "unit_of_measurement": "lux",
+            "state_class": "measurement",
             "value_template": "{{ value|int }}"
         }
     },
@@ -431,6 +452,7 @@ mappings = {
             "device_class": "illuminance",
             "name": "Outside Luminancee",
             "unit_of_measurement": "lux",
+            "state_class": "measurement",
             "value_template": "{{ value|int }}"
         }
     },
@@ -442,6 +464,7 @@ mappings = {
             "device_class": "illuminance",
             "name": "Brightness",
             "unit_of_measurement": "lux",
+            "state_class": "measurement",
             "value_template": "{{ value|int }}"
         }
     },
@@ -452,6 +475,7 @@ mappings = {
         "config": {
             "name": "UV Index",
             "unit_of_measurement": "UV Index",
+            "state_class": "measurement",
             "value_template": "{{ value|int }}"
         }
     },
