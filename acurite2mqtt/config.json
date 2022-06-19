@@ -1,6 +1,6 @@
 {
   "name": "FORK Acurite to Home Assistant",
-  "version": "0.3.16b",
+  "version": "0.4.0b",
   "slug": "acurite2mqtt",
   "description": "FORK Acurite Sensors to Home Assistant via MQTT with Autodiscovery",
   "url": "https://github.com/gavinhogan/hassio_addons",
